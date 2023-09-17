@@ -103,7 +103,6 @@
 
 <script setup>
 import { ref, computed, inject, onMounted } from 'vue'
-import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { useToast } from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-sugar.css';
 import { XMarkIcon } from '@heroicons/vue/24/outline'
