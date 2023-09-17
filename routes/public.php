@@ -9,5 +9,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', [HomeController::class, '__invoke'])
-    ->name('home');
+Route::get('/', function () {
+    return redirect('/home');
+});
